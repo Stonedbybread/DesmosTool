@@ -1,4 +1,4 @@
-(function() {
+function desmosToolInitalize() {
 function hexToHsv(hex) {
   hex = hex.replace("#", "");
 
@@ -128,4 +128,4 @@ colorIndex++;
 div.appendChild(dismiss);
 }
 div.appendChild(element);
-})();
+}
